@@ -1,7 +1,7 @@
 %define name	plasma-applet-message-indicator
 %define	srcname	plasma-widget-message-indicator
 %define version	0.5.2
-%define release	%mkrel 1
+%define release	%mkrel 2
 %define Summary	 Plasmoid for displaying messages from message-indicator enabled applications
 
 
