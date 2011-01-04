@@ -1,7 +1,7 @@
 %define name	plasma-applet-message-indicator
 %define	srcname	plasma-widget-message-indicator
-%define version	0.5.2
-%define release	%mkrel 2
+%define version	0.5.6
+%define release	%mkrel 1
 %define Summary	 Plasmoid for displaying messages from message-indicator enabled applications
 
 
@@ -29,7 +29,8 @@ applications.
 %defattr(-,root,root)
 %_kde_libdir/kde4/plasma_applet_message_indicator.so
 %_kde_services/plasma-applet-message-indicator.desktop
-
+%_kde_services/plasma-applet-indicatordisplay.desktop
+%_kde_appsdir/desktoptheme/default/icons/message-indicator.svgz
 
 
 
